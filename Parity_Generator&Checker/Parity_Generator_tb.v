@@ -1,4 +1,4 @@
-module bit4paritygen_tb();
+module bit4evenparitygen_tb();
   reg [3:0]a;
   wire cp;
   bit4paritygen dut(.a(a),.cp(cp));
